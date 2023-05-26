@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+header,
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(150, 4, 4);
+    text-align: center;
+}
+
+main{   
+    background-image: url("https://static.sky.it/editorialimages/908ce4421baf8b6ebed49c2772c15551876d4e7c/skytg24/it/mondo/2023/02/22/treni-troppo-larghi-gallerie-spagna/treno_renfe_spagna.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    height: calc(100vh - 200px);
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: inline-block;
+    padding: 30px;
+    border-radius: 30px;
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid lightgray;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+main p {
+    padding-bottom: 10px;
+}
