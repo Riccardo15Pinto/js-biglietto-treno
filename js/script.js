@@ -16,3 +16,7 @@ console.log(distanceUser);
 const price = (distanceUser * 0.21).toFixed(2);
 // check price
 console.log(price);
+// add discount
+const discount20 = ((price * 20) / 100);
+const discount40 = ((price * 40) / 100);
+
