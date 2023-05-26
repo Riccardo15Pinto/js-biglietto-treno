@@ -12,3 +12,7 @@ console.log(ageUser);
 const distanceUser = parseInt( prompt('Quanti chilometri vuoi percorrere?'))
 // check distanceUser
 console.log(distanceUser);
+// add totalprice
+const price = (distanceUser * 0.21).toFixed(2);
+// check price
+console.log(price);
